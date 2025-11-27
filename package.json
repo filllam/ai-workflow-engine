@@ -1,0 +1,19 @@
+{
+  "name": "ai-quarrel",
+  "version": "2.5.0",
+  "description": "AI Collaborative Workflow Engine",
+  "main": "ai-quarrel-v2.5.js",
+  "dependencies": {
+    "playwright": "1.48.0"
+  },
+  "bin": "ai-quarrel-v2.5.js",
+  "pkg": {
+    "scripts": "ai-quarrel-v2.5.js",
+    "assets": [
+      "config.json"
+    ],
+    "targets": [
+      "node18-win-x64"
+    ]
+  }
+}

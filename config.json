@@ -1,0 +1,10 @@
+{
+  "selectors": [
+    { "keyword": "gemini", "input": "prompt-textarea", "reply": "div.message-row:last-child .model-message" },
+    { "keyword": "copilot", "input": "textarea#userInput", "reply": "div[class*=\"text-message\"]:last-of-type" },
+    { "keyword": "deepseek", "input": "textarea[placeholder*=\"Ask anything\"]", "reply": "div.markdown.prose:last-of-type" },
+    { "keyword": "manus", "input": "textarea[placeholder*=\"Send a message\"]", "reply": "div[class*=\"message-content\"]:last-child" },
+    { "keyword": "claude", "input": "div.ProseMirror", "reply": "div[data-is-streaming='false']:last-of-type" },
+    { "keyword": "kimi", "input": "textarea[placeholder*=\"和 Kimi\"]", "reply": "div.chat-message-content" }
+  ]
+}
